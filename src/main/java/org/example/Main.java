@@ -4,6 +4,16 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        ArrayList<Plant> arrPlant = new ArrayList<>();
+        Plant plant1 = new Plant();
+        Plant plant2 = new Plant();
+        arrPlant.add(new Plant("Saula","Lasaula",true,"Mars",2,true));
+        arrPlant.add(new Plant("Tree","Latree",false,"Earth",45,false));
+        arrPlant.add(plant1);
+        arrPlant.add(plant2);
+    }
+    public static void EX1()
+    {
         ArrayList<Book> arrBook = new ArrayList<>();
         Book book1 = new Book();
         Book book2 = new Book();
@@ -27,6 +37,5 @@ public class Main {
         {
             System.out.println(arrBook.get(i).getTitle());
         }
-
     }
 }
