@@ -11,6 +11,24 @@ public class Main {
         arrPlant.add(new Plant("Tree","Latree",false,"Earth",45,false));
         arrPlant.add(plant1);
         arrPlant.add(plant2);
+        plant1.setName("Koja");
+        plant2.setName("Kija");
+        plant1.setLatinName("Lakoja");
+        plant2.setLatinName("Lakija");
+        plant1.setAnnual(true);
+        plant2.setAnnual(false);
+        plant1.setOrigin("LT");
+        plant2.setOrigin("EN");
+        plant1.setHeight(1.45);
+        plant2.setHeight(0.5);
+        plant1.setEdible(false);
+        plant2.setEdible(true);
+
+        //arrPlant.get(1).setName("null");
+        for(int i = 0; i<arrPlant.size();i++)
+        {
+            System.out.println(arrPlant.get(i));
+        }
     }
     public static void EX1()
     {
